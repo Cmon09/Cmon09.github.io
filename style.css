@@ -159,6 +159,40 @@ h1 {
   background-color: #a8f5db;
 }
 
+/* Affiliation List */
+.affiliation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.affiliation-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.affiliation-list li:last-child {
+  border-bottom: none;
+}
+
+.affiliation-name {
+  min-width: 0;
+}
+
+.affiliation-period {
+  flex-shrink: 0;
+  background-color: #beffe9;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
 /* Achievement List */
 .achievement-list {
   list-style: none;
